@@ -1,0 +1,647 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+}
+
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+input, button, textarea, select {
+font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+#root, #__next {
+isolation: isolate;
+}
+
+.hero {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.horizonalContainer{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.horizonalContainer button{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: "Inter";
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.divider {
+    border-bottom: solid 1px;
+    border-color: #EAEBF0;
+}
+
+.heroButton {
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+
+.signUp{
+    color: #437EF7;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.logIn {
+    color: #FFFFFF;
+    background-color: #437EF7;
+    border-color: #437EF7;
+    border-radius: 6px;
+    padding: 8px 13px 8px 13px;
+}
+
+.oneofthe {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #437EF7;
+    padding-top: 70px;
+}
+
+.heroContainer h3 {
+    font-family: "Inter";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #272D37;
+    padding-top: 30px;
+}
+
+.heroP {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #5F6D7E;
+    padding-top: 30px;
+}
+
+.frame91 {
+    padding-top: 150px;
+    padding-left: 543px;
+    padding-bottom: 50px;
+}
+
+/* Pricin Plan Start */
+
+.pricingContent {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.price1 {
+    display: flex;
+    align-items: baseline;
+}
+
+.price1 h3{
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #272D37;
+}
+
+.price1 p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 15px;
+}
+
+.Ptext h3 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #272D37;
+    padding-bottom: 10px;
+}
+
+.Ptext p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 20px;
+}
+
+.Pcontent1 img {
+    padding-bottom: 20px;
+}
+
+.container img {
+    padding-bottom: 30px;
+}
+
+.cards1 button{
+    padding: 12px 78px 12px 78px;
+    border: solid 1px;
+    border-radius: 6px;
+    border-color: transparent;
+    gap: 6px;
+    background-color: #437EF7;
+    color: white;
+    font-family: "Inter";
+}
+
+.cards1 {
+    border: solid 1px;
+    border-color: #EAEBF0;
+    padding: 32px;
+    border-radius: 5px;
+    width: 384px;
+    height: 466px;
+}
+
+/* price2 */
+.price2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.price2 h3{
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #272D37;
+}
+
+.price2 p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 15px;
+}
+
+.Ptext h3 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #272D37;
+    padding-bottom: 10px;
+}
+
+.Ptext p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 20px;
+}
+
+.Pcontent2 img {
+    padding-bottom: 20px;
+}
+
+.container img {
+    padding-bottom: 30px;
+}
+
+.cards2 button{
+    padding: 12px 78px 12px 78px;
+    border: solid 1px;
+    border-radius: 6px;
+    border-color: transparent;
+    gap: 6px;
+    background-color: #437EF7;
+    color: white;
+    font-family: "Inter";
+}
+
+.cards2 {
+    border: solid 1px;
+    border-color: #EAEBF0;
+    padding: 32px;
+    border-radius: 5px;
+    width: 384px;
+    height: 466px;
+}
+
+
+/* price3 */
+.price3 {
+    display: flex;
+    align-items: baseline;
+}
+
+.price3 h3{
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #272D37;
+}
+
+.price3 p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 15px;
+}
+
+.Ptext h3 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #272D37;
+    padding-bottom: 10px;
+}
+
+.Ptext p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 20px;
+}
+
+.Pcontent3 img {
+    padding-bottom: 20px;
+}
+
+.container img {
+    padding-bottom: 30px;
+}
+
+.cards3 button{
+    padding: 12px 78px 12px 78px;
+    border: solid 1px;
+    border-radius: 6px;
+    border-color: transparent;
+    gap: 6px;
+    background-color: #437EF7;
+    color: white;
+    font-family: "Inter";
+}
+
+.cards3 {
+    border: solid 1px;
+    border-color: #EAEBF0;
+    padding: 32px;
+    border-radius: 5px;
+    width: 384px;
+    height: 466px;
+}
+
+/* Pricin Plan End */
+
+/* Features Start */
+.featuresHeader h3 {
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #272D37;
+    padding-bottom: 16px;
+}
+
+.featuresHeader p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #5F6D7E;
+}
+.featuresContent1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 100px;
+    margin-right: 100px;
+    gap: 40px;
+}
+
+.featuresContent2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+}
+
+
+.featuresCase img {
+    padding-bottom: 15px;
+}
+.featuresCase h3{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #272D37;
+    padding-bottom: 15px;
+}
+
+.featuresCase p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 30px;
+}
+/* Features End */
+
+/* Pricing Plan Img Start */
+.planImg {
+    background-color: #151B28;
+}
+.planHeader h3{
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #F9F9F9;
+    padding-top: 80px;
+    padding-bottom: 13px;
+}
+
+.planHeader p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #A5ACBA;
+    padding-bottom: 50px;
+}
+
+.planImg img {
+    padding-left: 95px;
+    padding-bottom: 100px;
+}
+/* Pricing Plan Img End */
+
+
+/* Testimonial Start */
+.testimonialBase {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+}
+
+.rating {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.paragraph {
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    color: #272D37;
+    padding-bottom: 40px;
+}
+
+.name {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F6D7E;
+    padding-bottom: 46px;
+}
+
+.buttonTestimonial button {
+    background-color: #437EF7;
+    border-color: transparent;
+    border-radius: 6px;
+    padding: 12px;
+}
+/* Testimonial End */
+
+/* FAQ Start */
+.faqHeader h3{
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #272D37;
+    padding-top: 150px;
+}
+
+.faqHeader p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #5F6D7E;
+    padding-bottom: 60px;
+
+}
+
+.faq img {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+}
+/* FAQ End */
+
+/* CTA Start */
+
+.callToAction {
+    background-color: #2b63d9;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.callToAction h3 {
+    font-family:"Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.callToAction button{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #437EF7;
+    text-align: center;
+    margin-left: 702px;
+}
+/* CTA End */
+
+/* Footer Start */
+.footerStart {
+    background-color: #151B28;
+}
+
+.cardContainer {
+    display: flex;
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: space-between;
+}
+
+.buttonContainer p{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #A5ACBA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inputFooter input {
+    color: #2E3545;
+    background-color: #2C3444;
+    border-color: transparent;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-bottom: 13px;
+    padding-right: 50px;
+}
+
+.inputFooter button {
+    border-color: transparent;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #437EF7;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+    padding-right: 15px;
+}
+
+.cardContainer ul {
+    color: #F9F9F9;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.cardContainer li {
+    color: #A5ACBA;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.cardContainer a {
+    text-decoration: none;
+}
+
+.textInput {
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Footer End */
